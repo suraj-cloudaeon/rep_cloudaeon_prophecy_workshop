@@ -15,4 +15,4 @@ def dataset1(spark: SparkSession) -> DataFrame:
         )\
         .option("header", True)\
         .option("sep", ",")\
-        .csv("dbfs:/FileStore/tables/suraj/movie_statistic_dataset.csv")
+        .csv("dbfs:/mnt/ipcontainer/movie_statistics_sorted_by_duration.csv.xlsx")

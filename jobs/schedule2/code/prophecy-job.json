@@ -55,6 +55,32 @@
         "PublicCentral" : { }
       }
     }, {
+      "id" : "10892",
+      "name" : "fabric_cloudaeon_prophecy_workshop",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
+      "id" : "10898",
+      "name" : "WorkshopCloudaeonProphecy-SS",
+      "clusterSizes" : {
+        "default" : "small",
+        "availableClusterSizes" : [ "small" ]
+      },
+      "pylibsResolutionMode" : {
+        "PublicCentral" : { }
+      },
+      "scalalibsResolutionMode" : {
+        "PublicCentral" : { }
+      }
+    }, {
       "id" : "10064",
       "name" : "Fabric_santosh2_git",
       "clusterSizes" : {
@@ -169,7 +195,7 @@
         "configurations" : {
           "schema" : [ ],
           "instances" : {
-            "project_demo_suraj2" : [ "default" ]
+            "clone_demo_suraj2_cloudaeon_prophecy_workshop" : [ "default" ]
           },
           "overrides" : { },
           "selectedInstance" : "default"
@@ -195,73 +221,7 @@
       "properties" : {
         "clusterSize" : "small"
       }
-    },
-    "-vTiH86VJmCRjbFVNwLjY$$wF90nVWW9SwzZIjQcwkzd" : {
-      "id" : "-vTiH86VJmCRjbFVNwLjY$$wF90nVWW9SwzZIjQcwkzd",
-      "component" : "Pipeline",
-      "metadata" : {
-        "label" : "Pipeline_1",
-        "slug" : "Pipeline_1",
-        "x" : 100,
-        "y" : 100
-      },
-      "ports" : {
-        "inputs" : [ {
-          "id" : "_lpfLhBLgLbLbY6s0NBwg$$XUZy2pWD8Y2Vf0rhs4z3M",
-          "slug" : ""
-        } ],
-        "outputs" : [ {
-          "id" : "euSqrBVn3S7K95SkETjrx$$_bQp2GAOgr5MMfly5VcU9",
-          "slug" : ""
-        } ]
-      },
-      "settings" : {
-        "type" : "Inherited",
-        "alerting" : {
-          "emails" : "",
-          "onStart" : false,
-          "onSuccess" : false,
-          "onFailure" : false
-        }
-      },
-      "properties" : {
-        "pipelineId" : "pipelines/pl_airflow_test",
-        "configurations" : {
-          "schema" : [ ],
-          "instances" : {
-            "project_demo_suraj2" : [ "default" ]
-          },
-          "overrides" : { },
-          "selectedInstance" : "default"
-        }
-      },
-      "parent" : "TZttIQDKCugaA_-SGLbMV"
-    },
-    "TZttIQDKCugaA_-SGLbMV" : {
-      "id" : "TZttIQDKCugaA_-SGLbMV",
-      "component" : "Cluster",
-      "metadata" : {
-        "label" : "Cluster_2",
-        "slug" : "Cluster_2",
-        "x" : 380,
-        "y" : 0,
-        "width" : 280,
-        "height" : 280
-      },
-      "ports" : {
-        "inputs" : [ ],
-        "outputs" : [ ]
-      },
-      "properties" : {
-        "clusterSize" : "small"
-      }
     }
   },
-  "connections" : [ {
-    "id" : "lgi-ZWckjA9URlPkDoa1n$$tW-Gf_15QnsHBqdjE6Htn",
-    "source" : "gWGknY14paAYzyu64rLHh$$rna-aWZmX0W9_5PhjcmoT",
-    "target" : "-vTiH86VJmCRjbFVNwLjY$$wF90nVWW9SwzZIjQcwkzd",
-    "sourcePort" : "qWXv7Z8DTdnbmrXWHywqi$$yo-FgZ6j-xNz86PcxWldY",
-    "targetPort" : "_lpfLhBLgLbLbY6s0NBwg$$XUZy2pWD8Y2Vf0rhs4z3M"
-  } ]
+  "connections" : [ ]
 }
